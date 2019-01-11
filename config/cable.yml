@@ -1,14 +1,14 @@
 development:
   adapter: redis
-  url: <%= ENV.fetch "CR_REDIS_URL" %>
+  url: <%= ENV.fetch "REDIS_URL" %>
   channel_prefix: code_review_development
 
 test:
   adapter: redis
-  url: <%= ENV.fetch "CR_REDIS_URL" %>
+  url: <%= ENV.fetch "REDIS_URL" %>
   channel_prefix: code_review_test
 
 production:
   adapter: redis
-  url: <%= ENV.fetch "CR_REDIS_URL" %>
+  url: <%= ENV.fetch "REDIS_URL" %>
   channel_prefix: code_review_production
