@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
-ruby "2.5.1"
+ruby "2.6.0"
 
 gem "activerecord-import", "~> 0.27.0"
 gem "bootsnap", ">= 1.1.0", require: false
